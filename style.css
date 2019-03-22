@@ -14,46 +14,83 @@ body {
 
 header {
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   color: #777;
   background-color: #ebebeb;
   font-size: 18px;
   width: 100%;
 }
 
-#nav {
-  list-style: none;
+nav {
   background-color: #ebebeb;
-  list-style: none;
-  color: white;
- }
+  color: #777;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+}
+
+section {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 10px;
+  height: 350px;
+  overflow: hidden;
+  background-color: #ebebeb;
+}
 
 article {
   background-color:#777;
   color: #ebebeb;
   padding: 20px;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  height: 250px;
 }
 
-#left {
-  background-color: #777;
-  color: #ebebeb;
-  float: left;
-  width: 65%;
-  padding: 20px;
-}
-
-footer {
-  background-color: #ebebeb;
-}
-
-.articles {
+h1 {
+  width: 80%;
+  padding: 10px;
   color: #777;
+  text-align: center;
   background-color: #ebebeb;
-  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+
+p {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+  color: #777;
+  text-align: center;
+  background-color: #ebebeb;
+  margin-top: 10px;
 }
 
 aside {
   float: right;
-  width: 32%;
-  padding: 100px;
+  width: 40%;
+  padding: 20px;
+  background-color: #ebebeb;
+  color: #777;
+  height: 350px;
+  margin: 10px;
+}
+
+#clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  background-color: #ebebeb;
+  height: 50px;
+  clear: both;
+  margin: 5px;
 }
